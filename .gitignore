@@ -1,0 +1,11 @@
+/pqbench
+results/.*
+results/run.log
+results/prims.log
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk

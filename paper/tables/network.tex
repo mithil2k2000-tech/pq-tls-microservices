@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Modelled cost of a full mTLS handshake (ECDSA certificates): one round trip, serialisation of the measured handshake bytes, and the measured CPU time on both sides. Only one round trip is needed in every case: the largest flight (1,953 bytes) fits well within a 10-segment initial congestion window.}
+\label{tab:net}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Environment & Bandwidth & RTT (ms) & Classical (ms) & Added by hybrid (ms) & Relative \\
+\midrule
+Same host / data centre & 10000 Mbit/s & 0.1 & 1.85 & 0.91 & +49\% \\
+Cross-zone & 1000 Mbit/s & 1 & 2.76 & 0.93 & +34\% \\
+Internet, broadband & 50 Mbit/s & 30 & 32.03 & 1.28 & +4\% \\
+Mobile, constrained & 1 Mbit/s & 100 & 115.52 & 19.40 & +17\% \\
+Low-power IoT link & 0.25 Mbit/s & 300 & 356.82 & 74.86 & +21\% \\
+\bottomrule
+\end{tabular}
+\end{table}

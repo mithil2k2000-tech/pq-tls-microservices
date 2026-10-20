@@ -1,0 +1,8 @@
+{
+ "ML-KEM-1024 ciphertext": 1568,
+ "ML-KEM-1024 encapsulation key": 1568,
+ "ML-KEM-768 ciphertext": 1088,
+ "ML-KEM-768 encapsulation key": 1184,
+ "P-256 public key (uncompressed)": 65,
+ "X25519 public key": 32
+}

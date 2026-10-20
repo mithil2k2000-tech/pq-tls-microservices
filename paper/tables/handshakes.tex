@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Full TLS 1.3 handshakes on loopback, X25519 against X25519MLKEM768 (the hybrid client also offers an X25519 share, Go's default). CPU is median process CPU time per handshake over 7 runs of 300 handshakes; bytes are the handshake records in both directions. Pairs are X25519 / X25519MLKEM768.}
+\label{tab:hs}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Certificate & mTLS & Server CPU, $\mu$s & $\Delta$ server & Client CPU, $\mu$s & Bytes \\
+\midrule
+ECDSA-P256 & no & 542 / 831 & +53\% & 749 / 1177 & 1,076 / 3,387 \\
+ECDSA-P256 & yes & 807 / 1185 & +47\% & 943 / 1475 & 1,721 / 4,032 \\
+Ed25519 & no & 613 / 706 & +15\% & 832 / 1041 & 1,006 / 3,316 \\
+Ed25519 & yes & 781 / 910 & +16\% & 942 / 1133 & 1,582 / 3,892 \\
+RSA-2048 & no & 2669 / 3045 & +14\% & 938 / 1446 & 1,658 / 3,968 \\
+RSA-2048 & yes & 3059 / 3187 & +4\% & 3338 / 3431 & 2,886 / 5,196 \\
+RSA-3072 & no & 6014 / 6266 & +4\% & 1440 / 1799 & 2,042 / 4,352 \\
+RSA-3072 & yes & 7486 / 7526 & +1\% & 7900 / 7926 & 3,654 / 5,964 \\
+\bottomrule
+\end{tabular}
+\end{table*}

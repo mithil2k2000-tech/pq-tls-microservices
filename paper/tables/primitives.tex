@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Key-exchange primitives in Go 1.24 (\texttt{crypto/ecdh}, \texttt{crypto/mlkem}), 15 repetitions of 2{,}000 operations. Public values: X25519 32 bytes, P-256 65 bytes, ML-KEM-768 encapsulation key 1,184 bytes and ciphertext 1,088 bytes.}
+\label{tab:prims}
+\small
+\begin{tabular}{lrr}
+\toprule
+Operation & Median ($\mu$s) & IQR ($\mu$s) \\
+\midrule
+X25519 keygen & 72.2 & 8.6 \\
+X25519 shared secret & 73.9 & 12.1 \\
+P-256 keygen & 20.0 & 1.6 \\
+P-256 shared secret & 80.8 & 13.1 \\
+ML-KEM-768 keygen & 88.0 & 8.0 \\
+ML-KEM-768 encapsulate & 90.1 & 8.1 \\
+ML-KEM-768 decapsulate & 121.7 & 8.0 \\
+ML-KEM-1024 keygen & 127.0 & 11.3 \\
+ML-KEM-1024 encapsulate & 151.1 & 17.2 \\
+ML-KEM-1024 decapsulate & 192.5 & 11.3 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,205 @@
+{
+ "primitives_us": {
+  "X25519 keygen": 72.2,
+  "X25519 shared secret": 73.9,
+  "P-256 keygen": 20.0,
+  "P-256 shared secret": 80.8,
+  "ML-KEM-768 keygen": 88.0,
+  "ML-KEM-768 encapsulate": 90.1,
+  "ML-KEM-768 decapsulate": 121.7,
+  "ML-KEM-1024 keygen": 127.0,
+  "ML-KEM-1024 encapsulate": 151.1,
+  "ML-KEM-1024 decapsulate": 192.5
+ },
+ "ECDSA-P256_tls": {
+  "srv_x": 542246.7,
+  "srv_h": 831226.7,
+  "cli_x": 749213.3,
+  "cli_h": 1177070.0,
+  "bytes_x": 1076,
+  "bytes_h": 3387,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 765,
+  "sf_h": 1854
+ },
+ "ECDSA-P256_mtls": {
+  "srv_x": 806590.0,
+  "srv_h": 1184573.3,
+  "cli_x": 943346.7,
+  "cli_h": 1474903.3,
+  "bytes_x": 1721,
+  "bytes_h": 4032,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 864,
+  "sf_h": 1953
+ },
+ "Ed25519_tls": {
+  "srv_x": 612746.7,
+  "srv_h": 705916.7,
+  "cli_x": 832200.0,
+  "cli_h": 1041496.7,
+  "bytes_x": 1006,
+  "bytes_h": 3316,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 695,
+  "sf_h": 1783
+ },
+ "Ed25519_mtls": {
+  "srv_x": 781056.7,
+  "srv_h": 909883.3,
+  "cli_x": 941630.0,
+  "cli_h": 1132946.7,
+  "bytes_x": 1582,
+  "bytes_h": 3892,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 795,
+  "sf_h": 1883
+ },
+ "RSA-2048_tls": {
+  "srv_x": 2669463.3,
+  "srv_h": 3044933.3,
+  "cli_x": 937633.3,
+  "cli_h": 1445816.7,
+  "bytes_x": 1658,
+  "bytes_h": 3968,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 1347,
+  "sf_h": 2435
+ },
+ "RSA-2048_mtls": {
+  "srv_x": 3058820.0,
+  "srv_h": 3186756.7,
+  "cli_x": 3337800.0,
+  "cli_h": 3430953.3,
+  "bytes_x": 2886,
+  "bytes_h": 5196,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 1447,
+  "sf_h": 2535
+ },
+ "RSA-3072_tls": {
+  "srv_x": 6013760.0,
+  "srv_h": 6265866.7,
+  "cli_x": 1439530.0,
+  "cli_h": 1799020.0,
+  "bytes_x": 2042,
+  "bytes_h": 4352,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 1731,
+  "sf_h": 2819
+ },
+ "RSA-3072_mtls": {
+  "srv_x": 7486456.7,
+  "srv_h": 7525636.7,
+  "cli_x": 7900253.3,
+  "cli_h": 7926310.0,
+  "bytes_x": 3654,
+  "bytes_h": 5964,
+  "ch_x": 224,
+  "ch_h": 1446,
+  "sf_x": 1831,
+  "sf_h": 2919
+ },
+ "resume_x": {
+  "srv": 516903.3,
+  "cli": 712740.0,
+  "ch": 804,
+  "sf": 787,
+  "total": 1678
+ },
+ "resume_h": {
+  "srv": 789500.0,
+  "cli": 1061303.3,
+  "ch": 2026,
+  "sf": 1875,
+  "total": 3988
+ },
+ "hybrid_client_classical_server": {
+  "srv": 845340.0,
+  "cli": 1106940.0,
+  "ch": 1446,
+  "sf": 865,
+  "total": 2944
+ },
+ "hybrid_only_client": {
+  "srv": 1052990.0,
+  "cli": 1288006.7,
+  "ch": 1408,
+  "sf": 1952,
+  "total": 3993
+ },
+ "p256": {
+  "srv": 761676.7,
+  "cli": 919226.7,
+  "ch": 257,
+  "sf": 899,
+  "total": 1788
+ },
+ "network": [
+  {
+   "Environment": "Same host / data centre",
+   "Bandwidth": "10000 Mbit/s",
+   "RTT (ms)": "0.1",
+   "Classical (ms)": "1.85",
+   "Added by hybrid (ms)": "0.91",
+   "Relative": "+49\\%"
+  },
+  {
+   "Environment": "Cross-zone",
+   "Bandwidth": "1000 Mbit/s",
+   "RTT (ms)": "1",
+   "Classical (ms)": "2.76",
+   "Added by hybrid (ms)": "0.93",
+   "Relative": "+34\\%"
+  },
+  {
+   "Environment": "Internet, broadband",
+   "Bandwidth": "50 Mbit/s",
+   "RTT (ms)": "30",
+   "Classical (ms)": "32.03",
+   "Added by hybrid (ms)": "1.28",
+   "Relative": "+4\\%"
+  },
+  {
+   "Environment": "Mobile, constrained",
+   "Bandwidth": "1 Mbit/s",
+   "RTT (ms)": "100",
+   "Classical (ms)": "115.52",
+   "Added by hybrid (ms)": "19.40",
+   "Relative": "+17\\%"
+  },
+  {
+   "Environment": "Low-power IoT link",
+   "Bandwidth": "0.25 Mbit/s",
+   "RTT (ms)": "300",
+   "Classical (ms)": "356.82",
+   "Added by hybrid (ms)": "74.86",
+   "Relative": "+21\\%"
+  }
+ ],
+ "extra_bytes": 2311,
+ "ch_segments": {
+  "Ethernet (1460)": {
+   "x25519": 1,
+   "hybrid": 1,
+   "hybrid_resumed": 2
+  },
+  "IPsec/WireGuard tunnel (~1380)": {
+   "x25519": 1,
+   "hybrid": 2,
+   "hybrid_resumed": 2
+  },
+  "IPv6 minimum MTU (1220)": {
+   "x25519": 1,
+   "hybrid": 2,
+   "hybrid_resumed": 2
+  }
+ }
+}

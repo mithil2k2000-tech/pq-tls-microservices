@@ -1,0 +1,151 @@
+op,rep,ns_per_op
+X25519 keygen,0,68272.9
+X25519 keygen,1,63753.1
+X25519 keygen,2,64446.5
+X25519 keygen,3,73851.4
+X25519 keygen,4,71344.9
+X25519 keygen,5,72885.7
+X25519 keygen,6,74450.4
+X25519 keygen,7,72188.4
+X25519 keygen,8,67180.9
+X25519 keygen,9,78290.5
+X25519 keygen,10,88523.4
+X25519 keygen,11,94287.6
+X25519 keygen,12,66031.7
+X25519 keygen,13,71525.8
+X25519 keygen,14,83258.3
+X25519 shared secret,0,66278.1
+X25519 shared secret,1,81970.1
+X25519 shared secret,2,89265.3
+X25519 shared secret,3,73876.4
+X25519 shared secret,4,70827.7
+X25519 shared secret,5,81910.9
+X25519 shared secret,6,74653.5
+X25519 shared secret,7,82905.5
+X25519 shared secret,8,66549.0
+X25519 shared secret,9,70974.6
+X25519 shared secret,10,66618.7
+X25519 shared secret,11,75637.4
+X25519 shared secret,12,66738.5
+X25519 shared secret,13,74614.7
+X25519 shared secret,14,65371.2
+P-256 keygen,0,17465.0
+P-256 keygen,1,19991.4
+P-256 keygen,2,20607.5
+P-256 keygen,3,27608.8
+P-256 keygen,4,25595.4
+P-256 keygen,5,24904.9
+P-256 keygen,6,19975.2
+P-256 keygen,7,20216.2
+P-256 keygen,8,20033.8
+P-256 keygen,9,17583.7
+P-256 keygen,10,20005.5
+P-256 keygen,11,20562.0
+P-256 keygen,12,17706.5
+P-256 keygen,13,17911.6
+P-256 keygen,14,20318.6
+P-256 shared secret,0,86308.5
+P-256 shared secret,1,83338.9
+P-256 shared secret,2,87722.3
+P-256 shared secret,3,73378.5
+P-256 shared secret,4,71684.3
+P-256 shared secret,5,89051.7
+P-256 shared secret,6,108794.3
+P-256 shared secret,7,92404.7
+P-256 shared secret,8,94071.4
+P-256 shared secret,9,78062.5
+P-256 shared secret,10,75504.6
+P-256 shared secret,11,68501.2
+P-256 shared secret,12,80265.3
+P-256 shared secret,13,80825.4
+P-256 shared secret,14,75106.8
+ML-KEM-768 keygen,0,95014.6
+ML-KEM-768 keygen,1,88805.7
+ML-KEM-768 keygen,2,90967.9
+ML-KEM-768 keygen,3,83464.6
+ML-KEM-768 keygen,4,81678.2
+ML-KEM-768 keygen,5,93612.4
+ML-KEM-768 keygen,6,82844.7
+ML-KEM-768 keygen,7,83978.3
+ML-KEM-768 keygen,8,89418.2
+ML-KEM-768 keygen,9,87828.2
+ML-KEM-768 keygen,10,88018.9
+ML-KEM-768 keygen,11,98586.6
+ML-KEM-768 keygen,12,92563.9
+ML-KEM-768 keygen,13,80878.9
+ML-KEM-768 keygen,14,85334.8
+ML-KEM-768 encapsulate,0,91590.3
+ML-KEM-768 encapsulate,1,83669.7
+ML-KEM-768 encapsulate,2,83860.2
+ML-KEM-768 encapsulate,3,82004.8
+ML-KEM-768 encapsulate,4,90134.3
+ML-KEM-768 encapsulate,5,92758.7
+ML-KEM-768 encapsulate,6,105574.9
+ML-KEM-768 encapsulate,7,85256.9
+ML-KEM-768 encapsulate,8,93247.0
+ML-KEM-768 encapsulate,9,92316.2
+ML-KEM-768 encapsulate,10,87103.7
+ML-KEM-768 encapsulate,11,84376.1
+ML-KEM-768 encapsulate,12,88506.4
+ML-KEM-768 encapsulate,13,93016.5
+ML-KEM-768 encapsulate,14,106190.6
+ML-KEM-768 decapsulate,0,136672.1
+ML-KEM-768 decapsulate,1,116361.9
+ML-KEM-768 decapsulate,2,120959.3
+ML-KEM-768 decapsulate,3,121709.6
+ML-KEM-768 decapsulate,4,116732.2
+ML-KEM-768 decapsulate,5,121550.4
+ML-KEM-768 decapsulate,6,137224.0
+ML-KEM-768 decapsulate,7,120683.3
+ML-KEM-768 decapsulate,8,112922.3
+ML-KEM-768 decapsulate,9,126910.6
+ML-KEM-768 decapsulate,10,126450.7
+ML-KEM-768 decapsulate,11,124094.3
+ML-KEM-768 decapsulate,12,127468.6
+ML-KEM-768 decapsulate,13,124653.0
+ML-KEM-768 decapsulate,14,112731.2
+ML-KEM-1024 keygen,0,132625.8
+ML-KEM-1024 keygen,1,123049.8
+ML-KEM-1024 keygen,2,126967.0
+ML-KEM-1024 keygen,3,125198.3
+ML-KEM-1024 keygen,4,122382.7
+ML-KEM-1024 keygen,5,141845.7
+ML-KEM-1024 keygen,6,141813.0
+ML-KEM-1024 keygen,7,135406.3
+ML-KEM-1024 keygen,8,118962.5
+ML-KEM-1024 keygen,9,126629.8
+ML-KEM-1024 keygen,10,135157.7
+ML-KEM-1024 keygen,11,125012.0
+ML-KEM-1024 keygen,12,140356.7
+ML-KEM-1024 keygen,13,128429.2
+ML-KEM-1024 keygen,14,122387.2
+ML-KEM-1024 encapsulate,0,144834.4
+ML-KEM-1024 encapsulate,1,137141.7
+ML-KEM-1024 encapsulate,2,155825.0
+ML-KEM-1024 encapsulate,3,142694.1
+ML-KEM-1024 encapsulate,4,140088.4
+ML-KEM-1024 encapsulate,5,164181.7
+ML-KEM-1024 encapsulate,6,151089.9
+ML-KEM-1024 encapsulate,7,160827.8
+ML-KEM-1024 encapsulate,8,144997.1
+ML-KEM-1024 encapsulate,9,137590.7
+ML-KEM-1024 encapsulate,10,136030.2
+ML-KEM-1024 encapsulate,11,151468.8
+ML-KEM-1024 encapsulate,12,177340.3
+ML-KEM-1024 encapsulate,13,166978.0
+ML-KEM-1024 encapsulate,14,156276.6
+ML-KEM-1024 decapsulate,0,210547.5
+ML-KEM-1024 decapsulate,1,198414.2
+ML-KEM-1024 decapsulate,2,194025.8
+ML-KEM-1024 decapsulate,3,196989.9
+ML-KEM-1024 decapsulate,4,190567.3
+ML-KEM-1024 decapsulate,5,237125.2
+ML-KEM-1024 decapsulate,6,191781.9
+ML-KEM-1024 decapsulate,7,203741.6
+ML-KEM-1024 decapsulate,8,190837.5
+ML-KEM-1024 decapsulate,9,192455.0
+ML-KEM-1024 decapsulate,10,206521.6
+ML-KEM-1024 decapsulate,11,178557.9
+ML-KEM-1024 decapsulate,12,188899.4
+ML-KEM-1024 decapsulate,13,180812.6
+ML-KEM-1024 decapsulate,14,182342.5
