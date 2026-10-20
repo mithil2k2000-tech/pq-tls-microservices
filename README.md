@@ -1,8 +1,9 @@
 # What does hybrid post-quantum key exchange cost a microservice?
 
+📄 **Paper (PDF): [pq-tls-microservices.pdf](pq-tls-microservices.pdf)**
+
 X25519MLKEM768 measured in Go's standard TLS stack (Go 1.24, no third-party code): primitives, 28 handshake
 configurations (4 certificate types, with/without mTLS, resumption, mixed estates) and bytes per flight.
-Paper: [`paper/main.pdf`](paper/main.pdf).
 
 * Mutual-TLS handshake grows from 1,721 to 4,032 bytes; the ClientHello from 224 to 1,446 bytes
   (one Ethernet segment, two behind a VPN or at the IPv6 minimum MTU).
