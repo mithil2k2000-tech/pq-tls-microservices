@@ -1,0 +1,21 @@
+{
+  "title": "What Does Hybrid Post-Quantum Key Exchange Cost a Microservice? Measuring X25519MLKEM768 in Go's Standard TLS Stack",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code, data and results for: What Does Hybrid Post-Quantum Key Exchange Cost a Microservice? Measuring X25519MLKEM768 in Go's Standard TLS Stack. Not peer reviewed. The PDF is pq-tls-microservices.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "post-quantum cryptography",
+    "ML-KEM",
+    "TLS 1.3",
+    "microservices"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}
