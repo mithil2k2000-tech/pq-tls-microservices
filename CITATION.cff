@@ -9,6 +9,7 @@ authors:
     email: mithilnishu2000@gmail.com
 repository-code: "https://github.com/mithil2k2000-tech/pq-tls-microservices"
 license: MIT
+doi: "10.5281/zenodo.23593044"
 version: "1.0.0"
 date-released: "2026-10-21"
 keywords:
@@ -28,4 +29,5 @@ preferred-citation:
   year: 2026
   month: 10
   url: "https://github.com/mithil2k2000-tech/pq-tls-microservices/blob/main/pq-tls-microservices.pdf"
+  doi: "10.5281/zenodo.23593044"
   notes: "Preprint; not peer reviewed."

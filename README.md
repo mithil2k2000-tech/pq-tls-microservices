@@ -1,6 +1,6 @@
 # What does hybrid post-quantum key exchange cost a microservice?
 
-📄 **Paper (PDF): [pq-tls-microservices.pdf](pq-tls-microservices.pdf)**
+📄 **Paper (PDF): [pq-tls-microservices.pdf](pq-tls-microservices.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593044.svg)](https://doi.org/10.5281/zenodo.23593044)
 
 X25519MLKEM768 measured in Go's standard TLS stack (Go 1.24, no third-party code): primitives, 28 handshake
 configurations (4 certificate types, with/without mTLS, resumption, mixed estates) and bytes per flight.
